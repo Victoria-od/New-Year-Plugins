@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>JavaScript Page</title>
+	<link rel="stylesheet" href="assets/plugins/slick/slick.css"/>
+	<link rel="stylesheet" href="assets/plugins/slick/slick-theme.css"/>
+	<link rel="stylesheet" href="assets/plugins/datetimepicker-master/jquery.datetimepicker.css"/>
+	<link rel="stylesheet" href="assets/plugins/jQuery.SimpleSelect-master/jquery.simpleselect.min.css">
+	<link rel="stylesheet" href="assets/plugins/Realistic-Snow-Falling-Effect-with-jQuery-CSS3-snow-js/css/snow.css" />
+	<link rel="stylesheet" href="assets/css/style.css">
+	<script src="assets/js/jquery-1.12.1.min.js"></script>
+	<script src="assets/plugins/slick/slick.min.js"></script>
+	<script src="assets/plugins/masonry/masonry.pkgd.min.js"></script>
+	<script src="assets/plugins/masked-input-plugin/jquery.maskedinput.min.js"></script>
+	<script src="assets/plugins/datetimepicker-master/build/jquery.datetimepicker.full.min.js"></script>
+	<script src="assets/plugins/list-country/countries.js"></script>
+	<script src="assets/plugins/jQuery.SimpleSelect-master/jquery.simpleselect.min.js"></script>
+	<script type="text/javascript" src="assets/plugins/Realistic-Snow-Falling-Effect-with-jQuery-CSS3-snow-js/js/snow.js"></script>
+	<script src="assets/js/main.js"></script>
+</head>
+<body>
+	<div class="background">
+	<header>
+		<div class="head-row-first">
+			<h1 class="text-center page-title">JavaScript Page</h1>
+		</div>
+		<div class="head-row-second">
+			<div class="container">
+				<ul class="main-menu">
+					<li><a href="result.html">First</a></li>
+					<li><a href="index.html">Second</a></li>
+					<li><a href="#">Third</a></li>
+					<li><a href="#">Fourth</a></li>
+					<li><a href="#">Fifth</a></li>
+					<li><a href="#">Sixth</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="image-slider">
+			<div class="image-slide" style="background-image: url('assets/img/1.jpg');">
+				<div class="gray-mask"></div>
+			</div>
+			<div class="image-slide" style="background-image: url('assets/img/2.jpg');">
+				<div class="gray-mask"></div>
+			</div>
+			<div class="image-slide" style="background-image: url('assets/img/3.png');">
+				<div class="gray-mask"></div>
+			</div>
+			<div class="image-slide" style="background-image: url('assets/img/6.jpg');">
+				<div class="gray-mask"></div>
+			</div>
+			<div class="image-slide" style="background-image: url('assets/img/4.jpg');">
+				<div class="gray-mask"></div>
+			</div>
+			<div class="image-slide" style="background-image: url('assets/img/5.jpg');">
+				<div class="gray-mask"></div>
+			</div>
+		</div>
+	</header>
+			<main class="container">
+				
+				<div class="form-results location-form">
+					<div class="text-center">
+						<button class="show-my-pos">Show My Location</button>
+						<h3>OR</h3>
+					</div>
+					<form action="">
+						<p class="map-form-field">
+							<label for="map-country">Country</label>
+							<select name="" id="map-country"></select>
+						</p>
+						<p class="map-form-field">
+							<label for="map-city">City</label>
+							<input id="map-city" type="text">
+						</p>
+						<p class="map-form-field">
+							<label for="map-address">Address</label>
+							<input id="map-address" type="text">
+						</p>
+						<p class="map-form-field">
+							<label for="map-zip">Zip Code</label>
+							<input id="map-zip" type="number">
+						</p>
+						<p class="map-form-field text-center">
+							<button type="submit">Find Location</button>
+						</p>
+					</form>
+				</div>
+				
+				
+			</main>
+			<footer>
+				<div class="container">
+					<ul class="footer-menu text-center">
+						<li>
+							<a href="#" data-toggle="modal" data-target=".modal-contact">Contact Us</a>
+						</li>
+						<li>
+							<a href="#" data-toggle="modal" data-target=".modal-login">Login</a>
+						</li>
+					</ul>
+				</div>
+			</footer>
+			<div class="modal modal-contact">
+				<div class="modal-content">
+					<a href="#" class="close-modal">X</a>
+					<h3 class="text-center">Contact Us</h3>
+					<form class="form" action="">
+						<input placeholder="Enter Your Name" type="text">
+						<input class="phone-input" placeholder="Enter Your Phone" type="text">
+						<input class="date-input" placeholder="Enter Date" type="text">
+						<textarea placeholder="Enter Your Message"></textarea>
+						<div class="text-center">
+							<button type="submit">Submit</button>
+						</div>
+					</form>
+				</div>
+			</div>
+			<div class="modal modal-login">
+				<div class="modal-content">
+					<a href="#" class="close-modal">X</a>
+					<h3 class="text-center">Login</h3>
+					<form class="form" action="">
+						<input placeholder="Username" type="text">
+						<input placeholder="Password" type="password">
+						<div class="text-center">
+							<button type="submit">Submit</button>
+						</div>				
+					</form>
+				</div>
+			</div>
+		<span class="hidden" id="snowflake">&#10052;</span></div>
+		
+	</body>
+	</html>
